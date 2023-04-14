@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1728C3;
+    min-height: 80%vh;
+}
+.imgheaderinicio{
+    margin:0;
+    padding:0;
+}
+header{
+    height: 10vh;
+    display: flex;
+    color: whitesmoke;
+    align-items: center; /* me centra todos los elementos en el medio, siendo que display=flex lo que alinea son los elementos enel "eje Y" */
+    justify-content: space-between; /* el espacio es maximo entre los elementos, pero sin espacio en bordes */
+    background-color: rgb(23, 40, 195);
+    padding: 2vh 6vw;
+    text-align: center;
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;*/
+}
+header nav a{
+    display: flex;
+    color: white;
+    text-decoration: none; /* le saco el subrayado a los hipervinculos que ya viene por defecto en el elemento a del css original que no se ve, porque es por defecto justamnente:letra en azul y subrayado */
+    background-color: rgb(61, 113, 245);
+    border-radius: 15% / 45%;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 3vh;
+    transition: background-color 1s;
+}
+header nav a:hover{
+    background-color: rgb(204, 250, 250);
+    color: black;
+}
+nav{
+display: flex;
+gap: 30px; 
+}
+
+.divinicio{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.divinicio1{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 30px;
+}
+.divinicio1 h2{
+letter-spacing: 2px;
+
+}
+
+
+.divinicio2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Homenaje', sans-serif;
+    color:#f1f1f1; 
+    text-align: center;
+    margin-right: 120px; 
+    text-shadow: 0px 0px 2px #060606;
+    transition: all 300ms;  
+}
+.divinicio2:hover{
+    text-shadow: 0px 0px 4px #f1f1f1;
+}
+h1{
+    font-size: 70px;
+}
+.divinicio3{
+    background-color: white;
+    border-radius: 2rem;
+   box-shadow: 0px 0px 2px #060606;
+    /* overflow: hidden; */
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Kadwa', serif; 
+    color:#060606;   
+    margin: 100px;
+    
+}
+.divinicio3:hover{
+    box-shadow: 0px 0px 4px #f1f1f1;
+}
+
+.divinicio3 p{
+
+font-size: 22px;
+
+
+}
+img{
+    margin-top: 50px;
+    margin-right: 50px;
+} 
+footer{
+    margin-top: 4%;
+    background-color: #1728C3;
+    height: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+}
+.iconos0{
+    display: flex;
+    flex-direction: column;
+}
+.iconos{
+    font-size: 30px;
+    color:#0088ff;
+    display: flex;
+    justify-content: space-evenly;
+}
+ .pfooterinicio{
+    margin-left: 25%;
+} 
