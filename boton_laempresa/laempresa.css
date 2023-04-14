@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    color: whitesmoke;
+    align-items: center; /* me centra todos los elementos en el medio, siendo que display=flex lo que alinea son los elementos enel "eje Y" */
+    justify-content: space-between; /* el espacio es maximo entre los elementos, pero sin espacio en bordes */
+    background-color: rgb(23, 40, 195);
+    padding: 2vh 6vw;
+    text-align: center;
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;*/
+}
+header nav a{
+    display: flex;
+    color: white;
+    text-decoration: none; /* le saco el subrayado a los hipervinculos que ya viene por defecto en el elemento a del css original que no se ve, porque es por defecto justamnente:letra en azul y subrayado */
+    background-color: rgb(61, 113, 245);
+    border-radius: 15% / 45%;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 3vh;
+    transition: background-color 1s;
+}
+header nav a:hover{
+    background-color: rgb(204, 250, 250);
+    color: black;
+}
+nav{
+display: flex;
+gap: 30px; 
+}
+
+main{
+    background-color: blue;
+    height: 80vh;
+}
+
+.empresa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5vh 5vw;
+    text-align: center;
+    background-color: blue;
+}
+
+.la-empresa{
+    background-color: #F3F3F3;
+    width: 28vw;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img-container-laempresa{
+    border: 1px black solid;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* me centra todos los elementos en el medio, siendo que display=flex lo que alinea son los elementos enel "eje Y" */
+    justify-content: space-between;
+    /* el espacio es maximo entre los elementos, pero sin espacio en bordes */
+    background-color:  rgb(23, 40, 195);
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+
+
+    #footer_redes {
+        display: flex;
+        gap: 30px;
+    }
+
+    .bi-figma {
+        height: 2vh;
+        width: 1vw;
+        margin: 0;
+        background-color: white;
+    }
+
+    footer a {
+        background-color: white;
+        height: 2.5vh;
+        width: 2.5vw;
+        border-radius: 30%;
+    }
