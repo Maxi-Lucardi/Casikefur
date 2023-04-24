@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'fajala';
+    src: url(../fonts/FjallaOne-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #ffffff;
+
+
+
+}
+
+/* CABECERA */
+
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d0ff74;
+    background-image: linear-gradient(45deg, #d0ff74 0%, #88ffbe 50%);
+    position: fixed;
+}
+
+.logo {
+    margin-top: 5px;
+
+
+}
+
+.menu {
+
+    display: flex;
+    align-content: start;
+    gap: 5vh;
+    font-family: "fajala";
+
+}
+
+.menu>a {
+
+    font-size: 18px;
+    color: #101110;
+    text-decoration: none;
+
+}
+
+.menu>a:hover {
+    transition: all 300ms;
+    font-size: 20px;
+    color: rgb(69, 233, 102);
+    text-shadow: 2px 1px 3px rgb(7, 46, 30);
+
+}
+
+.formUsuarios label {
+    font-size: 18px;
+    padding: 5px;
+    font-family: "fajala";
+}
+
+.formUsuarios input {
+
+    font-size: 18px;
+}
+
+
+/* CONTENIDO */
+
+/* CONTENIDO TITULO */
+
+.contenedorPrincipal {
+    background-image: url("../img/fondoLago.jpg");
+    background-position: center;
+    height: 700px;
+    background-color: #ffffff;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+
+}
+
+
+.titulos {
+
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+
+}
+
+
+.tituloPrincipal {
+
+
+    margin-left: 20px;
+    font-family: "fajala";
+    color: #92ED77;
+    font-size: 35px;
+    text-shadow: 4px 4px 0px black ;
+
+}
+.tituloPrincipal:hover {
+
+    text-shadow: 0px 0px 2px #92ED77 ;
+
+
+}
+
+
+.subtituloPrincipal {
+
+
+
+    font-family: "fajala";
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 2px;
+
+}
+
+.subtituloPrincipal>p {
+
+    padding: 5px;
+
+
+}
+
+/* CONTENIDO IMAGENES */
+
+.imgTitulos {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    background-color: transparent;
+
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 10px #ffffff inset;
+    border-radius: 25px;
+}
+
+.cajaImg1 img {
+    margin-top: 30px;
+    margin-right: -350px;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.cajaImg2 img {
+    margin-top: 100px;
+
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.cajaImg3 img {
+    margin-top: 160px;
+    margin-left: -300px;
+    width: 300px;
+    height: 300px;
+
+
+}
+
+
+/* CONTENIDO FORMULARIO */
+
+.contForm {
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+    margin-top: 70px;
+}
+
+
+.tarjCont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1vh;
+    width: 25%;
+    background-color: transparent;
+    height: 400px;
+
+}
+
+.tarjCont h2 {
+
+    font-family: "fajala";
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 45px;
+    color: #92ED77;
+
+}
+
+.tarjCont p {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.formulario {
+    background-color: #d0ff74;
+    background-image: linear-gradient(45deg, #d0ff74 0%, #88ffbe 50%);
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: #f1f1f1;
+    font-size: 30px;
+    border-radius: 25px;
+    color: rgb(7, 0, 0);
+
+}
+
+.formSolicitud {
+
+    width: 90%;
+    height: 600px;
+    padding: 15px;
+
+}
+
+.inputContainer input,
+textarea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(40, 39, 39);
+    font-family: "fajala";
+
+}
+
+.inputContainer label {
+
+    font-family: "fajala";
+
+}
+
+.btn-mensaje {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(8, 2, 2);
+    color: #f1f1f1;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px white inset;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn-mensaje:hover {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: 0.8s ease-in-out;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    border: 1px solid rgb(8, 2, 2);
+    border-radius: 5px;
+    color: rgb(8, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 4px black inset;
+}
+
+
+
+/* CONTENIDO PROMOCIONES */
+
+.contDesc {
+
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+    margin-top: 70px;
+
+
+}
+
+
+.cardDescuento1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    font-size: 20px;
+    width: 25%;
+
+    height: 500px;
+    border-radius: 25px;
+
+    transition: all 300ms;
+}
+
+
+
+.cardDescuento1:hover {
+
+
+    box-shadow: 0px 0px 10px #101110 inset;
+    background-color: #92ed7728;
+
+
+}
+
+
+
+
+.cardDescuento1 h3 {
+    font-family: "fajala";
+    font-size: 35px;
+    text-align: center;
+
+}
+
+ .precio h3{
+ color: #92ED77 !important;
+
+
+}
+
+
+.cardDescuento1 p {
+
+    margin: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+/* CONTENEDOR NOTICIAS */
+
+.contNot {
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    height: 700px;
+    margin-top: 70px;
+
+}
+
+.cardNoticias {
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 15%;
+    box-shadow: 0px 0px 10px #101110 inset;
+    margin: 5px;
+    text-align: justify;
+}
+
+.cardNoticias:hover{
+transition: all 300ms;
+    background-color: #d1ff7452;
+    background-image: linear-gradient(45deg, #d1ff7450 0%, #88ffbe54 50%);
+
+}
+
+.cardNoticias h3 {
+    font-family: "fajala";
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.cardNoticias p {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* FOOTER */
+
+
+#footer {
+
+    width: 100%;
+    height: 100px;
+    background-color: #101110;
+    color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+font-family: "fajala";
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 20px;
+}
+
+.lugar{
+
+letter-spacing: 1px;
+
+
+}
+
+
+.iconsRedes a {
+color: #ffffff;
+    text-decoration: none;
+margin: 20px;
+}
+
+.iconsRedes a:hover {
+
+font-size: 30px;
+
+
+
+}
